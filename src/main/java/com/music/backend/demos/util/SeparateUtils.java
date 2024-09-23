@@ -17,7 +17,7 @@ import java.util.stream.IntStream;
 /**
  * @author rty
  * @version 1.0
- * @description: TODO
+ * @description: 作拆分处理的工具类
  * @date 2024/8/30 21:21
  */
 public class SeparateUtils {

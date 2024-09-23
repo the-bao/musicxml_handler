@@ -9,7 +9,8 @@ import java.math.BigInteger;
 /**
  * @author rty
  * @version 1.0
- * @description: TODO
+ * @description: 生成ScorePartwise实例的工具类
+ * @date 2024/8/19 23:24
  * @date 2024/8/19 23:24
  */
 public abstract class DummyGenerator

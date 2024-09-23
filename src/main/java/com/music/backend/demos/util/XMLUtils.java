@@ -26,17 +26,6 @@ public class XMLUtils {
 
     private static Integer MEASURE_COUNT = 4;
 
-    public static void main(String[] args) throws FileNotFoundException, Marshalling.MarshallingException {
-        String workPath = System.getProperty("user.dir") + File.separator;
-        System.out.println(workPath);
-        String xmlPath = workPath + "src/main/resources/musicxml/MozaVeilSample.xml";
-        String xsdPath = workPath + "src/main/resources/xsd/musicxml.xsd";
-        String testPath = workPath + "src/main/resources/temp/temp.xml";
-
-        //separateXMLByPart(xmlPath);
-        separateXMLByMeasure(xmlPath);
-    }
-
     /*
      * @description: 将 MusicXML文件，按照 Part进行拆分
      * @param: xmlPath MusicXML文件路径
